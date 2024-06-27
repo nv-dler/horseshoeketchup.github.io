@@ -25,3 +25,12 @@
     url: https://arxiv.org/abs/2405.19335
     display: arXiv:2405.19335
   highlight: 1
+
+- title: "AM-RADIO: Agglomerative Vision Foundation Model Reduce All Domains Into One"
+  image: radio.png
+  description: We introduce AM-RADIO, a multi-teacher distillation framework for Vision Foundation Models. We propose an efficient model architecture named E-RADIO, which runs 6x faster than teachers at matched resolution. 
+  authors: Mike Ranzinger, Greg Heinrich, Jan Kautz, Pavlo Molchanov.
+  link:
+    url: https://arxiv.org/abs/2312.06709
+    display: arXiv:2312.06709
+  highlight: 1 
