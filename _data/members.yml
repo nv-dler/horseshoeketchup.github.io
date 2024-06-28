@@ -16,8 +16,9 @@
 
 - name: Greg Heinrich
   photo: Greg.jpg
-  info: Autonomous vehicles, fast vision-language models.
-  email: greg@nvidia.com
+  info: Vision Foundation, Vision-Language Models.
+  email: gheinrich@nvidia.com
+  webpage: https://scholar.google.com/citations?hl=fr&user=VrjibvwAAAAJ
 
 - name: Xin Dong
   photo: Xin.jpg
@@ -29,7 +30,8 @@
   info: Efficient perceptron architectures, structured sparsity.
   email: pbelcak@nvidia.com
 
-- name: Shinzhe Diao
-  photo: Shinzhe.png
+- name: Shizhe Diao
+  photo: shizhe.png
   info: TBD.
-  email: shinzhe@nvidia.com
+  email: sdiao@nvidia.com
+  webpage: https://shizhediao.github.io/
