@@ -1,11 +1,11 @@
-#- name:
-#  photo: rock.jpg
-#  info:
-#  email:
-#  number_educ:
-#  education1:
-#  education2:
-#  education3:
-#  education4:
+- name: Yonggan Fu
+  info: 2024, Georgia Institute of Technology
+  webpage: https://www.yongganfu.com
 
+- name: Ruisi Cai
+  info: 2023-2024, University of Texas at Austin
+  webpage: https://cairuisi.github.io
 
+- name: Baifeng Shi
+  info: 2023-2024, University of Texas at Austin
+  webpage: https://bfshi.github.io

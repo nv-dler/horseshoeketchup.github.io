@@ -102,8 +102,11 @@ Jump to [members](#members), [interns](#interns).
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <h2>{{ member.name }}</h2>
+  <i>{{ member.info }} </i>
+  {% if member.webpage %}
+  <a href="{{ member.webpage }}"> webpage </a>
+  {% endif %}
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
