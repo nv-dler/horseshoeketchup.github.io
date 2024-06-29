@@ -26,7 +26,7 @@ Jump to [members](#members), [interns](#interns).
   {{ member.name }}
   </h4>
   <i>{{ member.info }}</i>
-  <ul style="overflow: hidden;list-style-type: none;">
+  <ul style="overflow: hidden;list-style-type: none;margin: 0;padding: 0;">
   {% if member.webpage %}
    <li> <a href="{{ member.webpage }}"> webpage </a> </li> 
   {% endif %}
