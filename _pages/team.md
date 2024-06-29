@@ -98,10 +98,10 @@ Jump to [members](#members), [interns](#interns).
 {% for member in site.data.interns %}
 
 <li>
-<h5>{{ member.name }}</h5>, {{ member.info }}, 
-<!-- {% if member.webpage %}
+**{{ member.name }}**, {{ member.info }}, 
+{% if member.webpage %}
   <a href="{{ member.webpage }}"> webpage </a>
-{% endif %} -->
+{% endif %}
 </li>
 
 {% endfor %}
