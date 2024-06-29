@@ -89,8 +89,6 @@ Jump to [members](#members), [interns](#interns).
 {% endif %}
 
 
-
-
 ## Interns
 
 <ul style="overflow: hidden">
@@ -98,7 +96,7 @@ Jump to [members](#members), [interns](#interns).
 {% for member in site.data.interns %}
 
 <li>
-**{{ member.name }}**, {{ member.info }}, 
+<strong>{{ member.name }}</strong>, {{ member.info }}, 
 {% if member.webpage %}
   <a href="{{ member.webpage }}"> webpage </a>
 {% endif %}
