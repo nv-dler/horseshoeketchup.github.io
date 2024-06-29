@@ -29,7 +29,7 @@ Jump to [members](#members), [interns](#interns).
   {% if member.webpage %}
   <a href="{{ member.webpage }}"> webpage </a>
   {% endif %}
-  {% if member.scholar == 1%}
+  {% if member.scholar %}
   <br><a href="{{ member.scholar }}"> Google Scholar </a>
   {% endif %}
   <!-- {% if member.webpage == 1 %}
