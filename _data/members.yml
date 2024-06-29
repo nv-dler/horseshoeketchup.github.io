@@ -7,12 +7,12 @@
 
 - name: Hongxu (Danny) Yin
   photo: Danny.jpg
-  info: Vision-language models.
+  info: Vision-language models
   email: danny@nvidia.com
 
 - name: Saurav Muralidharan
   photo: Saurav.jpg
-  info: Language model efficiency.
+  info: Language model efficiency
   email: saurav@nvidia.com
 
 - name: Greg Heinrich
@@ -23,7 +23,7 @@
 
 - name: Xin Dong
   photo: Xin.jpg
-  info: Small language models.
+  info: Small language models
   email: xin@nvidia.com
 
 - name: Peter Belcak
