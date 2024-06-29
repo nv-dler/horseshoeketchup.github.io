@@ -30,7 +30,7 @@ Jump to [members](#members), [interns](#interns).
   <a href="{{ member.webpage }}"> webpage </a>
   {% endif %}
   {% if member.scholar %}
-  <a href="{{ member.scholar }}"> Google Scholar </a>
+  <br><a href="{{ member.scholar }}"> Google Scholar </a>
   {% endif %}
   <!-- {% if member.webpage == 1 %}
   <br><a href="{{ member.webpage }}"> webpage </a>
