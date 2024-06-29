@@ -26,17 +26,18 @@ Jump to [members](#members), [interns](#interns).
   {{ member.name }}
   </h4>
   <i>{{ member.info }}</i>
+  <ul style="overflow: hidden">
   {% if member.webpage %}
-  <a href="{{ member.webpage }}"> webpage </a>
+   <li> <a href="{{ member.webpage }}"> webpage </a> </li> 
   {% endif %}
   {% if member.scholar %}
-  <br><a href="{{ member.scholar }}"> Google Scholar </a>
+   <li> <a href="{{ member.scholar }}"> Google Scholar </a>  </li> 
   {% endif %}
   <!-- {% if member.webpage == 1 %}
   <br><a href="{{ member.webpage }}"> webpage </a>
   {% endif %} -->
 
-
+  </ul>
 
   <ul style="overflow: hidden">
   
