@@ -93,8 +93,23 @@ Jump to [members](#members), [interns](#interns).
 
 ## Interns
 {% assign number_printed = 0 %}
+
+<ul style="overflow: hidden">
+
 {% for member in site.data.interns %}
 
+<li>
+<h5>{{ member.name }}</h5>, {{ member.info }}, 
+{% if member.webpage %}
+  <a href="{{ member.webpage }}"> webpage </a>
+  {% endif %}
+</li>
+
+{% endfor %}
+
+</ul>
+
+<!-- 
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
@@ -145,7 +160,7 @@ Jump to [members](#members), [interns](#interns).
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %}
+{% endif %} -->
 
 <!-- 
 ## Associated Professors
