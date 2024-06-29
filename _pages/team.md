@@ -92,7 +92,6 @@ Jump to [members](#members), [interns](#interns).
 
 
 ## Interns
-{% assign number_printed = 0 %}
 
 <ul style="overflow: hidden">
 
@@ -100,9 +99,9 @@ Jump to [members](#members), [interns](#interns).
 
 <li>
 <h5>{{ member.name }}</h5>, {{ member.info }}, 
-{% if member.webpage %}
+<!-- {% if member.webpage %}
   <a href="{{ member.webpage }}"> webpage </a>
-  {% endif %}
+{% endif %} -->
 </li>
 
 {% endfor %}
