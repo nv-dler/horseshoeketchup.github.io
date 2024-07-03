@@ -23,8 +23,10 @@
 
 - name: Xin Dong
   photo: Xin.jpg
-  info: Small language models
+  info: On-device language models
   email: xin@nvidia.com
+  webpage: https://simonxin.com/
+
 
 - name: Peter Belcak
   photo: Peter.jpg
