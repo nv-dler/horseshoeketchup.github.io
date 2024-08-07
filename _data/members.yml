@@ -1,5 +1,5 @@
 - name: Pavlo Molchanov
-  photo: pavlo.png
+  photo: Pavlo.png
   info: Team Lead
   email: pmolchanov@nvidia.com
   webpage: https://www.pmolchanov.com/
@@ -8,12 +8,12 @@
 - name: Hongxu (Danny) Yin
   photo: Danny.jpg
   info: Vision-language models
-  email: danny@nvidia.com
+  email: dannyy@nvidia.com
 
 - name: Saurav Muralidharan
   photo: Saurav.jpg
   info: Language model efficiency
-  email: saurav@nvidia.com
+  email: sauravm@nvidia.com
 
 - name: Greg Heinrich
   photo: Greg.jpg
@@ -24,17 +24,17 @@
 - name: Xin Dong
   photo: Xin.jpg
   info: On-device language models
-  email: xin@nvidia.com
+  email: xind@nvidia.com
   webpage: https://simonxin.com/
 
 
 - name: Peter Belcak
-  photo: Peter.jpg
+  photo: Peter.png
   info: Efficient perceptron architectures, structured sparsity.
   email: pbelcak@nvidia.com
 
 - name: Shizhe Diao
-  photo: shizhe.png
+  photo: Shizhe.png
   info: TBD.
   email: sdiao@nvidia.com
   webpage: https://shizhediao.github.io/
