@@ -47,7 +47,7 @@
   image: radio_pub.png
   description: We introduce AM-RADIO, a multi-teacher distillation framework for Vision Foundation Models. We propose an efficient model architecture named E-RADIO, which runs 6x faster than teachers at matched resolution. Our comprehensive benchmarking process covers downstream tasks including ImageNet classification, ADE20k semantic segmentation, COCO object detection and LLaVa-1.5 framework.
   authors: Mike Ranzinger*, Greg Heinrich*, Jan Kautz, Pavlo Molchanov.
-  venue: NeurIPS 2022
+  venue: CVPR 2023
   linklist:
     - url: https://arxiv.org/abs/2312.06709
       display: Arxiv
