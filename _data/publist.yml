@@ -102,4 +102,13 @@
       display: Arxiv
   highlight: 1
 
+- title: "SpatialRGPT: Grounded Spatial Reasoning in Vision Language Model"
+  image: srgpt.png
+  description: Enabling visual grounding in visual language models.
+  authors: An-Chieh Cheng, Hongxu Yin, Yang Fu, Qiushan Guo, Ruihan Yang, Jan Kautz, Xiaolong Wang, Sifei Liu
+  linklist:
+    - url: https://arxiv.org/abs/2406.01584
+      display: Arxiv
+  highlight: 0
+
 
