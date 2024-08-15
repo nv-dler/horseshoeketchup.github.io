@@ -64,7 +64,7 @@
 
 
 - title: "Flextron: Many-in-One Flexible Large Language Model"
-  image: Flextron.png
+  image: flextron.png
   description: Training modern LLMs is extremely resource intensive, and customizing them for various deployment scenarios characterized by limited compute and memory resources through repeated training is impractical. We introduce Flextron, a network architecture and post-training model optimization framework supporting flexible model deployment.
   authors: Ruisi Cai, Saurav Muralidharan, Greg Heinrich, Hongxu Yin, Zhangyang Wang, Jan Kautz, Pavlo Molchanov
   venue: ICML 2024 (oral)
