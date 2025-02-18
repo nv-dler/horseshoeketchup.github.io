@@ -1,3 +1,16 @@
+- title: "Hymba: A Hybrid-head Architecture for Small Language Models"
+  image: hymba.png
+  description: We develop an efficient model compression strategy for LLMs that combines depth, width, attention and MLP pruning with knowledge-distillation-based retraining. We use our strategy to compress the Nemotron-4 family of LLMs by a factor of 2-4x, and compare their performance to similarly-sized models on a variety of language modeling tasks. Deriving 8B and 4B models from an already pretrained 15B model using our approach requires up to 40x fewer training tokens per model compared to training from scratch; this results in compute cost savings of 1.8x for training the full model family (15B, 8B, and 4B).
+  authors: Saurav Muralidharan, Sharath Turuvekere Sreenivas, Raviraj Joshi, Marcin Chochowski, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Jan Kautz, Pavlo Molchanov
+  linklist:
+    - url: https://arxiv.org/abs/2411.13676
+      display: Arxiv
+    - url: https://huggingface.co/collections/nvidia/hymba-673c35516c12c4b98b5e845f
+      display: HF models  
+    - url: https://developer.nvidia.com/blog/hymba-hybrid-head-architecture-boosts-small-language-model-performance/
+      display: Blog
+  highlight: 1
+
 - title: "Compact Language Models via Pruning and Knowledge Distillation"
   image: minitron.png
   description: We develop an efficient model compression strategy for LLMs that combines depth, width, attention and MLP pruning with knowledge-distillation-based retraining. We use our strategy to compress the Nemotron-4 family of LLMs by a factor of 2-4x, and compare their performance to similarly-sized models on a variety of language modeling tasks. Deriving 8B and 4B models from an already pretrained 15B model using our approach requires up to 40x fewer training tokens per model compared to training from scratch; this results in compute cost savings of 1.8x for training the full model family (15B, 8B, and 4B).
