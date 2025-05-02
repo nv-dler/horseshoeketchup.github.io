@@ -3,7 +3,7 @@
   info: Team Lead
   email: pmolchanov@nvidia.com
   webpage: https://www.pmolchanov.com/
-  scholar: https://scholar.google.com/citations?user=J9PoyoIAAAAJ&hl=en&oi=ao 
+  scholar: https://scholar.google.com/citations?user=J9PoyoIAAAAJ&hl=en&oi=ao
 
 - name: Yingyan (Celine) Lin
   photo: Celine.png
@@ -26,7 +26,7 @@
   webpage: https://sauravm.com/
   scholar: https://scholar.google.com/citations?user=GXlChWcAAAAJ&hl=en
 
-- name: Greg Heinrich 
+- name: Greg Heinrich
   photo: Greg.jpg
   info: Vision Foundation, Vision-Language Models.
   email: gheinrich@nvidia.com
@@ -41,7 +41,7 @@
 
 - name: Peter Belcak
   photo: Peter.png
-  info: Efficient perceptron architectures, structured sparsity.
+  info: Efficient and reliable agentic systems.
   email: pbelcak@nvidia.com
 
 - name: Shizhe Diao
@@ -50,3 +50,9 @@
   email: sdiao@nvidia.com
   webpage: https://shizhediao.github.io/
   scholar: https://scholar.google.com/citations?user=NDFQrLQAAAAJ&hl=en
+
+- name: Yonggan Fu
+  photo: Yonggan.jpg
+  info: Efficient language models
+  email: yonggan.gatech@gmail.com
+  webpage: https://www.yongganfu.com/
