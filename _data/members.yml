@@ -41,8 +41,10 @@
 
 - name: Peter Belcak
   photo: Peter.png
-  info: Efficient and reliable agentic systems.
+  info: Reliable and efficient agentic systems.
   email: pbelcak@nvidia.com
+  webpage: https://pbelcak.com/
+  scholar: https://scholar.google.com/citations?user=8EQ-RvEAAAAJ
 
 - name: Shizhe Diao
   photo: Shizhe.png
