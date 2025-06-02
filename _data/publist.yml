@@ -1,3 +1,13 @@
+- title: "FeatSharp: Your Vision Model Features, Sharper"
+  description: The feature maps of vision encoders are fundamental to myriad modern AI tasks, ranging from core perception algorithms (e.g. semantic segmentation, object detection, depth perception, etc.) to modern multimodal understanding in vision-language models (VLMs). Currently, in computer vision, the frontier of general purpose vision backbones are Vision Transformers (ViT), typically trained using contrastive loss (e.g. CLIP). A key problem with most off-the-shelf ViTs, particularly CLIP, is that these models are inflexibly low resolution. Most run at 224x224px, while the "high resolution" versions are around 378-448px, but still inflexible. We introduce a novel method to coherently and cheaply upsample the feature maps of low-res vision encoders while picking up on fine-grained details that would otherwise be lost due to resolution. We demonstrate the effectiveness of this approach on core perception tasks as well as within agglomerative model (RADIO) training as a way of providing richer targets for distillation.
+  authors: Mike Ranzinger, Greg Heinrich, Pavlo Molchanov, Jan Kautz, Bryan Catanzaro, Andrew Tao
+  venue: ICML 2025
+  image: FeatSharp.png
+  linklist:
+    - url: https://arxiv.org/abs/2502.16025
+      display: Arxiv
+  highlight: 1
+
 - title: "VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge"
   description: "We introduce VILA-M3, a framework that enhances generalist vision-language models (VLMs) with domain-specific medical expertise. VILA-M3 integrates outputs from expert models—such as those trained for tumor detection and abnormality classification—into the instruction fine-tuning process. This approach enables the model to capture fine-grained features in medical data, particularly in radiology, that are often too intricate for standard VLMs. Our experiments demonstrate that VILA-M3 achieves state-of-the-art performance, with an average improvement of ~9% over the prior SOTA model Med-Gemini and ~6% over models trained on specific tasks. This work underscores the importance of incorporating domain expertise to create precise, reliable VLMs for medical applications."
   authors: Vishwesh Nath, Wenqi Li, Dong Yang, Andriy Myronenko, Mingxin Zheng, Yao Lu, Zhijian Liu, Hongxu Yin, Yee Man Law, Yucheng Tang, Pengfei Guo, Can Zhao, Ziyue Xu, Yufan He, Greg Heinrich, Stephen Aylward, Marc Edgar, Michael Zephyr, Pavlo Molchanov, Baris Turkbey, Holger Roth, Daguang Xu
@@ -71,17 +81,9 @@
   description: "Agglomerative models have recently emerged as a powerful approach to training vision foundation models, leveraging multi-teacher distillation from existing models such as CLIP, DINO, and SAM. This strategy enables the efficient creation of robust models, combining the strengths of individual teachers while significantly reducing computational and resource demands. In this paper, we thoroughly analyze state-of-the-art agglomerative models, identifying critical challenges including resolution mode shifts, teacher imbalance, idiosyncratic teacher artifacts, and an excessive number of output tokens. To address these issues, we propose several novel solutions: multi-resolution training, mosaic augmentation, and improved balancing of teacher loss functions. Specifically, in the context of Vision Language Models, we introduce a token compression technique to maintain high-resolution information within a fixed token count."
   authors: Greg Heinrich, Mike Ranzinger, Hongxu (Danny)Yin, Yao Lu, Jan Kautz, Andrew Tao, Bryan Catanzaro, Pavlo Molchanov
   venue: CVPR 2025
+  image: RADIOv2.5.png
   linklist:
     - url: https://arxiv.org/abs/2412.07679
-      display: Arxiv
-  highlight: 1
-
-- title: "FeatSharp: Your Vision Model Features, Sharper"
-  description: The feature maps of vision encoders are fundamental to myriad modern AI tasks, ranging from core perception algorithms (e.g. semantic segmentation, object detection, depth perception, etc.) to modern multimodal understanding in vision-language models (VLMs). Currently, in computer vision, the frontier of general purpose vision backbones are Vision Transformers (ViT), typically trained using contrastive loss (e.g. CLIP). A key problem with most off-the-shelf ViTs, particularly CLIP, is that these models are inflexibly low resolution. Most run at 224x224px, while the "high resolution" versions are around 378-448px, but still inflexible. We introduce a novel method to coherently and cheaply upsample the feature maps of low-res vision encoders while picking up on fine-grained details that would otherwise be lost due to resolution. We demonstrate the effectiveness of this approach on core perception tasks as well as within agglomerative model (RADIO) training as a way of providing richer targets for distillation.
-  authors: Mike Ranzinger, Greg Heinrich, Pavlo Molchanov, Jan Kautz, Bryan Catanzaro, Andrew Tao
-  venue: ICML 2025
-  linklist:
-    - url: https://arxiv.org/abs/2502.16025
       display: Arxiv
   highlight: 1
 
