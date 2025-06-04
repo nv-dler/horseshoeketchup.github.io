@@ -8,6 +8,15 @@
       display: Arxiv
   highlight: 1
 
+- title: "Small Language Models are the Future of Agentic AI"
+  description: "Small language models (LLMs) are often overlooked in favor of larger, more powerful models. However, we argue that small LLMs are the future of agentic AI due to their efficiency, accessibility, and adaptability. Here we detail our position on the future of agentic AI, arguing with evidence that that the industry and the community are to benefit from a switch from LLMs to SLMs."
+  authors: Peter Belcak, Greg Heinrich, Shizhe Diao, Yonggan Fu, Xin Dong, Saurav Muralidharan, Yingyan Celine Lin, Pavlo Molchanov
+  image: slm_agents2.png
+  linklist:
+    - url: https://arxiv.org/abs/2506.02153
+      display: Arxiv
+  highlight: 1
+
 - title: "VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge"
   description: "We introduce VILA-M3, a framework that enhances generalist vision-language models (VLMs) with domain-specific medical expertise. VILA-M3 integrates outputs from expert models—such as those trained for tumor detection and abnormality classification—into the instruction fine-tuning process. This approach enables the model to capture fine-grained features in medical data, particularly in radiology, that are often too intricate for standard VLMs. Our experiments demonstrate that VILA-M3 achieves state-of-the-art performance, with an average improvement of ~9% over the prior SOTA model Med-Gemini and ~6% over models trained on specific tasks. This work underscores the importance of incorporating domain expertise to create precise, reliable VLMs for medical applications."
   authors: Vishwesh Nath, Wenqi Li, Dong Yang, Andriy Myronenko, Mingxin Zheng, Yao Lu, Zhijian Liu, Hongxu Yin, Yee Man Law, Yucheng Tang, Pengfei Guo, Can Zhao, Ziyue Xu, Yufan He, Greg Heinrich, Stephen Aylward, Marc Edgar, Michael Zephyr, Pavlo Molchanov, Baris Turkbey, Holger Roth, Daguang Xu
