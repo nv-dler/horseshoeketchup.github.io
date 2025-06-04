@@ -9,12 +9,14 @@
   highlight: 1
 
 - title: "Small Language Models are the Future of Agentic AI"
-  description: "Small language models (LLMs) are often overlooked in favor of larger, more powerful models. However, we argue that small LLMs are the future of agentic AI due to their efficiency, accessibility, and adaptability. Here we detail our position on the future of agentic AI, arguing with evidence that that the industry and the community are to benefit from a switch from LLMs to SLMs."
+  description: "Small language models (SLMs) are often overlooked in favor of larger, more powerful models. However, we argue that small LLMs are the future of agentic AI due to their efficiency, accessibility, and adaptability. Here we detail our position on the future of agentic AI, arguing with evidence that that the industry and the community are to benefit from a switch from LLMs to SLMs. Our position is based on three key points: That SLMs are sufficiently powerful, inherently more suitable, and necessarily more economical for many invocations in agentic systems. We then draw the conclusion that they are the future of agentic AI. We welcome correspondence on the topic."
   authors: Peter Belcak, Greg Heinrich, Shizhe Diao, Yonggan Fu, Xin Dong, Saurav Muralidharan, Yingyan Celine Lin, Pavlo Molchanov
   image: slm_agents2.png
   linklist:
     - url: https://arxiv.org/abs/2506.02153
       display: Arxiv
+    - url: https://research.nvidia.com/labs/lpr/slm-agents/
+      display: Project/Correspondence Page
   highlight: 1
 
 - title: "VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge"
